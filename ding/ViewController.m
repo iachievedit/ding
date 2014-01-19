@@ -10,7 +10,8 @@
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
-//
+// Comment this line out to do a test run with an incorrect implementation
+// that causes the AVAudioPlayer to be lost to ARC
 #define CORRECT_IMPLEMENTATION
 
 @interface ViewController () <AVAudioPlayerDelegate>
