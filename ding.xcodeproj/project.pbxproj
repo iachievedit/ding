@@ -21,6 +21,7 @@
 		7628329D188C21B300008FCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7628327F188C21B300008FCC /* UIKit.framework */; };
 		762832A5188C21B300008FCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 762832A3188C21B300008FCC /* InfoPlist.strings */; };
 		762832A7188C21B300008FCC /* dingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 762832A6188C21B300008FCC /* dingTests.m */; };
+		762832B1188C26CD00008FCC /* ding.caf in Resources */ = {isa = PBXBuildFile; fileRef = 762832B0188C26CD00008FCC /* ding.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		762832A2188C21B300008FCC /* dingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dingTests-Info.plist"; sourceTree = "<group>"; };
 		762832A4188C21B300008FCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		762832A6188C21B300008FCC /* dingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dingTests.m; sourceTree = "<group>"; };
+		762832B0188C26CD00008FCC /* ding.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ding.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		76283282188C21B300008FCC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				762832B0188C26CD00008FCC /* ding.caf */,
 				76283283188C21B300008FCC /* ding-Info.plist */,
 				76283284188C21B300008FCC /* InfoPlist.strings */,
 				76283287188C21B300008FCC /* main.m */,
@@ -199,6 +202,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "iAchieved.it LLC";
 				TargetAttributes = {
+					76283277188C21B200008FCC = {
+						DevelopmentTeam = 5367BG94QP;
+					};
 					76283298188C21B300008FCC = {
 						TestTargetID = 76283277188C21B200008FCC;
 					};
@@ -230,6 +236,7 @@
 			files = (
 				76283294188C21B300008FCC /* Images.xcassets in Resources */,
 				76283286188C21B300008FCC /* InfoPlist.strings in Resources */,
+				762832B1188C26CD00008FCC /* ding.caf in Resources */,
 				7628328F188C21B300008FCC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,9 +385,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ding/ding-Prefix.pch";
 				INFOPLIST_FILE = "ding/ding-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,9 +400,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ding/ding-Prefix.pch";
 				INFOPLIST_FILE = "ding/ding-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,6 +427,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "dingTests/dingTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -435,6 +447,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ding/ding-Prefix.pch";
 				INFOPLIST_FILE = "dingTests/dingTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -460,6 +473,7 @@
 				762832AC188C21B300008FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762832AD188C21B300008FCC /* Build configuration list for PBXNativeTarget "dingTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +482,7 @@
 				762832AF188C21B300008FCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
