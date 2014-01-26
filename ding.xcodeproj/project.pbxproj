@@ -15,7 +15,6 @@
 		7628328C188C21B300008FCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7628328B188C21B300008FCC /* AppDelegate.m */; };
 		7628328F188C21B300008FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7628328D188C21B300008FCC /* Main.storyboard */; };
 		76283292188C21B300008FCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76283291188C21B300008FCC /* ViewController.m */; };
-		76283294188C21B300008FCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76283293188C21B300008FCC /* Images.xcassets */; };
 		7628329B188C21B300008FCC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7628329A188C21B300008FCC /* XCTest.framework */; };
 		7628329C188C21B300008FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7628327B188C21B300008FCC /* Foundation.framework */; };
 		7628329D188C21B300008FCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7628327F188C21B300008FCC /* UIKit.framework */; };
@@ -48,7 +47,6 @@
 		7628328E188C21B300008FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		76283290188C21B300008FCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		76283291188C21B300008FCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		76283293188C21B300008FCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		76283299188C21B300008FCC /* dingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7628329A188C21B300008FCC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		762832A2188C21B300008FCC /* dingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dingTests-Info.plist"; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				7628328D188C21B300008FCC /* Main.storyboard */,
 				76283290188C21B300008FCC /* ViewController.h */,
 				76283291188C21B300008FCC /* ViewController.m */,
-				76283293188C21B300008FCC /* Images.xcassets */,
 				76283282188C21B300008FCC /* Supporting Files */,
 			);
 			path = ding;
@@ -234,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76283294188C21B300008FCC /* Images.xcassets in Resources */,
 				76283286188C21B300008FCC /* InfoPlist.strings in Resources */,
 				762832B1188C26CD00008FCC /* ding.caf in Resources */,
 				7628328F188C21B300008FCC /* Main.storyboard in Resources */,
